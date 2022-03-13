@@ -1,0 +1,114 @@
+body
+{
+		background-color: #13141c;
+		font-family: 'League Spartan', sans-serif;
+		margin: 0;
+		color: #fff;
+		font-size: 15px;
+}
+
+header
+{
+	width: 100%;
+}
+
+h1.logo
+{
+	background-color: #040936;
+	font-size: 48px;
+	font-weight: 700;
+	color: #bf005c;
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+nav
+{
+	background-color: #082b12;
+	text-align: center;
+}
+.menu
+{
+	list-style-type: none;
+	font-size: 20px;
+	padding: 15px;
+	margin: 0;
+	line-height: 150%;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 3px solid #8aeba4;
+}
+
+.menu > li:first-child
+{
+	border-left: 3px solid #8aeba4;
+}
+
+.menu a
+{
+	text-decoration: none;
+	color: #8aeba4;
+}
+
+#container
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	margin: 40px;
+}
+
+main
+{
+	width: 800px;
+	margin: 0;
+	text-align: center;
+	min-height: 1000px;
+	float: left;
+}
+
+article 
+{
+	border: 1px solid #fff;
+	padding: 20px;
+	min-height: 1000px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#left
+{
+	border: 1px solid #fff;
+	padding: 20px;
+	min-height: 1000px;
+	width: 100px;
+	float: left;
+}
+
+#right
+{
+	border: 1px solid #fff;
+	padding: 20px;
+	min-height: 1000px;
+	width: 100px;
+	float: left;
+}
+
+footer
+{
+	width: 100%;
+	background-color: #040936;
+	color: #bf005c;
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+}
